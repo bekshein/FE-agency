@@ -33,6 +33,10 @@ body {
 .btn-small {
   padding: 0.3rem 1.5rem; }
 
+.btn-large {
+  padding: 0.75rem 4rem;
+  font-size: 1.35rem; }
+
 .clearfix:after {
   content: " ";
   display: table;
@@ -201,3 +205,31 @@ body {
         -moz-transform: scale(0.8, 0.8);
         transform: scale(0.8, 0.8);
         z-index: 2; }
+
+/* Contact
+------------------------------------------- */
+#contact {
+  background: #f2f1f8;
+  padding: 6rem 0 8rem 0;
+  text-align: center; }
+  #contact .title {
+    font-size: 2.5rem;
+    color: #3f3d4e;
+    margin: 0; }
+  #contact .subtitle {
+    font-size: 1.5rem;
+    color: #a9a6ba;
+    width: 600px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 4rem auto; }
+
+footer {
+  padding: 1rem 0; }
+  footer .copyright {
+    text-align: center;
+    font-weight: 700;
+    color: #a9a6ba; }
+    footer .copyright a {
+      color: #79c582;
+      text-decoration: none; }

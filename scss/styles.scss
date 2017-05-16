@@ -47,6 +47,11 @@ body {
   padding: 0.3rem 1.5rem;
 }
 
+.btn-large {
+  padding: 0.75rem 4rem;
+  font-size: 1.35rem;
+}
+
 .clearfix:after {
   content: " ";
   display: table;
@@ -250,6 +255,40 @@ body {
         transform: scale(0.8, 0.8);
         z-index: 2;
       }
+    }
+  }
+}
+
+/* Contact
+------------------------------------------- */
+#contact {
+  background: $lightgray_bg;
+  padding: 6rem 0 8rem 0;
+  text-align: center;
+  .title {
+    font-size: 2.5rem;
+    color: $darkgray_text;
+    margin: 0;
+  }
+  .subtitle {
+    font-size: 1.5rem;
+    color: $lightgray_text;
+    width: 600px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 4rem auto;
+  }
+}
+
+footer {
+  padding: 1rem 0;
+  .copyright {
+    text-align: center;
+    font-weight: 700;
+    color: $lightgray_text;
+    a {
+      color: $green;
+      text-decoration: none;
     }
   }
 }
