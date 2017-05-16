@@ -47,6 +47,12 @@ body {
   padding: 0.3rem 1.5rem;
 }
 
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
 /* Banner
 ------------------------------------------- */
 #banner {
